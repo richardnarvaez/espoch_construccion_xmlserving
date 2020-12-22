@@ -1,14 +1,10 @@
-package net.osgg.xmlserving;
-
-
+package net.osgg.xmlserving.models_sql;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
-
-
 
 @Entity
 @Table(name = "employees")
