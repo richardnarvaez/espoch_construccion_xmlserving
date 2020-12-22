@@ -18,4 +18,10 @@ public class XMLRestController {
      return service.getEmployees();
    }
 
+   @GetMapping("employees/console")
+   public String getEmployeesConsole(){
+      httprequestXML.get();
+      return "correcto";
+   }
+
 }
